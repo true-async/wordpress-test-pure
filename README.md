@@ -1,6 +1,7 @@
 # WordPress with TrueAsync PHP
 
-Test build demonstrating WordPress running on **TrueAsync PHP** with pure CLI-based HTTP server - single-threaded execution with coroutine-based concurrency.
+Test build demonstrating WordPress running on **TrueAsync PHP** with pure CLI-based HTTP server 
+- single-threaded execution with coroutine-based concurrency.
 
 ## Quick Start
 
@@ -76,7 +77,6 @@ This allows WordPress to handle multiple requests simultaneously in one process 
 
 - **HTTP Keep-Alive**: Connections are reused for multiple requests
 - **Zero-Copy Static Files**: Static assets (CSS, JS, images) are served directly without WordPress overhead
-- **Coroutine-based**: Thousands of concurrent connections with minimal memory footprint
 - **Single Process**: No process management overhead, all handled by the event loop
 
 ## Configuration
