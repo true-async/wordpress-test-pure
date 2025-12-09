@@ -1,0 +1,24 @@
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+app/*.log
+app/**/*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Docker volumes
+.docker/
+
+# WordPress specific (optional, include if needed)
+# app/wp-content/uploads/
+# app/wp-content/cache/
